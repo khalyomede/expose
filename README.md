@@ -30,27 +30,27 @@ All the examples bellow assume the following classes exists:
 
 ```php
 class Collection {
-	protected $items;
+  protected $items;
 
-	public function __construct($items) {
-		$this->items = $items;
-	}
+  public function __construct($items) {
+    $this->items = $items;
+  }
 
-	public function all() {
-		return $this->items;
-	}
+  public function all() {
+    return $this->items;
+  }
 }
 
 class Log {
-	protected $message;
+  protected $message;
 
-	public function __construct($message) {
-		$this->message = $message;
-	}
+  public function __construct($message) {
+    $this->message = $message;
+  }
 
-	public function error() {
-		echo sprintf('Error: %s', $this->message) . PHP_EOL;
-	}
+  public function error() {
+    echo sprintf('Error: %s', $this->message) . PHP_EOL;
+  }
 }
 ```
 
@@ -78,9 +78,9 @@ Will display:
 ```
 Array 
 (
-	[0] => Thunderbird
-	[1] => Polaris
-	[2] => Eclipse
+  [0] => Thunderbird
+  [1] => Polaris
+  [2] => Eclipse
 )
 ```
 
@@ -90,8 +90,8 @@ Array
 use Khalyomede\Expose;
 
 Expose::make([
-	[Collection::class, 'collector'],
-	[Log::class, 'logging'] // beware of existing functions!
+  [Collection::class, 'collector'],
+  [Log::class, 'logging'] // beware of existing functions!
 ]);
 
 $items = collector(['Thunderbird', 'Polaris', 'Eclipse'])->all();
@@ -104,9 +104,9 @@ Will display:
 ```
 Array
 (
-	[0] => Thunderbird
-	[1] => Polaris
-	[2] => Eclipse
+  [0] => Thunderbird
+  [1] => Polaris
+  [2] => Eclipse
 )
 duplicate entry 'Dreamer' on line 9
 ```
