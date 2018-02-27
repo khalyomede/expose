@@ -26,7 +26,7 @@ composer require khalyomede/expose:1.*
 
 All the examples are available inside `/example` folder.
 
-All the examples above assumes the following classes exists:
+All the examples bellow assumes the following classes exists:
 
 ```php
 class Collection {
