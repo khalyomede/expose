@@ -123,6 +123,7 @@ Expose the class using its alias a shortcut, and create the related function.
 
 ```php
 public static function make(string $class_name, string $function_name): void
+public static function make(array $exposures): void
 ```
 
 **Exceptions**
