@@ -96,6 +96,8 @@ Expose::make([
 
 $items = collector(['Thunderbird', 'Polaris', 'Eclipse'])->all();
 
+print_r($items);
+
 logging("duplicate entry 'Dreamer' on line 9")->error();
 ```
 
