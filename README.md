@@ -1,5 +1,9 @@
 # Expose
 
+![PHP from Packagist](https://img.shields.io/packagist/php-v/khalyomede/expose.svg)
+![Packagist](https://img.shields.io/packagist/v/khalyomede/expose.svg)
+![Packagist](https://img.shields.io/packagist/l/khalyomede/expose.svg)
+
 Expose your classes through functions to speed up your development.
 
 ## Summary
