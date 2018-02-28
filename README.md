@@ -6,6 +6,22 @@
 
 Expose your classes through functions to speed up your development.
 
+From 
+
+```php
+$collection = new Collection(['Dreamer', 'Thunderbird', 'Eclipse']);
+
+$items = $collection->all();
+```
+
+To
+
+```php
+Expose::make('Collection', 'collect');
+
+$items = collect(['Dreamer', 'Thunderbird', 'Eclipse'])->all();
+```
+
 ## Summary
 
 - [Prerequisites](#prerequisites)
