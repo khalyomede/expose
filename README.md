@@ -135,9 +135,9 @@ duplicate entry 'Dreamer' on line 9
 
 ## Methods definition
 
-- [make](#make)
+- [make()](#make)
 
-### Make
+### make()
 
 Expose the class using its alias a shortcut, and create the related function.
 
