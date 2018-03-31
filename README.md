@@ -1,6 +1,6 @@
 # Warning
 
-This package is now abandoned because of security issue regarding a core function of php (more information by following [this link](http://php.net/manual/fr/function.create-function.php)).
+This package is now abandoned because of security issue regarding a core function of php (more information by following [this link](http://php.net/manual/en/function.create-function.php)).
 
 # Expose
 
